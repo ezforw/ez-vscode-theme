@@ -1,0 +1,30 @@
+{
+  "name": "ez-light-theme",
+  "displayName": "EZ Light",
+  "description": "EZ light theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "EZ Light",
+        "uiTheme": "vs",
+        "path": "./themes/ez-light-theme-color-theme.json"
+      },
+      {
+        "label": "EZ Light VSCode",
+        "uiTheme": "vs",
+        "path": "./themes/ez-light-vscode-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
